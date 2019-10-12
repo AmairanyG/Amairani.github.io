@@ -17,9 +17,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template('base.html')
+    return render_template('index.html')
 
-@app.route("/templates/blog.html")   
+@app.route("/Amairani.github.io/blog.html")   
 def project_overview():
     return render_template('blog.html')
 
