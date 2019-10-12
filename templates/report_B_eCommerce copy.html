@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>eCommerce Trends</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://127.0.0.1:5000">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5500/templates/blog.html">Report Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/templates/report_A_Trend_by_Category%20copy.html">Trend by Category Report</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/templates/report_B_eCommerce%20copy.html">eCommerce Trends Report</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5000/api/v1.0/reportC">Economic Indicators Report</a>
+            </li> 
+        </li>
+        
+      </ul>
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Total Retail VS. eCommerce Trends</h1>
+      <hr class="my-4">
+    </div>
+    <div class="jumbotron">
+      
+    <!-- <h1 class="display-4">eCommerce Trends Report</h1>    
+        <div class="chart" id="my_dataviz">
+        </div>
+        <script type="text/javascript" src="../static/app.js"></script> -->
+      
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+      <title>Retail Vs. Ecommerce</title>
+      <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script> -->
+          <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+      <div id="chart"></div>
+          <script src="../db/data.js"></script>
+          <script src="../db/test.js"></script>    
+  </body>
+      
+      
+      </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Detailed Analysis</h1>
+        <p class="lead">This report is about trends by category. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+<div class="container">
+    
+    <div class="card">
+            <div class="card-header">
+              Footer
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              </blockquote>
+            </div>
+          </div>
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+[{
+    "retail":1248875,
+    "eCommerce":570,
+    "year":1998
+},
+{
+    "retail":1349029,
+    "eCommerce":2218,
+    "year":1999
+},
+{
+    "retail":1396760,
+    "eCommerce":4923,
+    "year":2000
+},
+{
+    "retail":1435345,
+    "eCommerce":6214,
+    "year":2001
+},
+{
+    "retail":1444359,
+    "eCommerce":8153,
+    "year":2002
+},
+{
+    "retail":1478560,
+    "eCommerce":11720,
+    "year":2003
+},
+{
+    "retail":1525854,
+    "eCommerce":15250,
+    "year":2004
+},
+{
+    "retail":1576538,
+    "eCommerce":18452,
+    "year":2005
+},
+{
+    "retail":1617041,
+    "eCommerce":21519,
+    "year":2006
+},
+{
+    "retail":1650035,
+    "eCommerce":24639,
+    "year":2007
+},
+{
+    "retail":1539537,
+    "eCommerce":20494,
+    "year":2008
+},
+{
+    "retail":1416456,
+    "eCommerce":18202,
+    "year":2009
+},
+{
+    "retail":1501103,
+    "eCommerce":21483,
+    "year":2010
+},
+{
+    "retail":1603148,
+    "eCommerce":24434,
+    "year":2011
+},
+{
+    "retail":1697637,
+    "eCommerce":26268,
+    "year":2012
+},
+{
+    "retail":1787909,
+    "eCommerce":30299,
+    "year":2013
+},
+{
+    "retail":1877112,
+    "eCommerce":32094,
+    "year":2014
+},
+{
+    "retail":1968214,
+    "eCommerce":34478,
+    "year":2015
+}
+];
