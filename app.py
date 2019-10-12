@@ -24,12 +24,12 @@ def project_overview():
     return render_template('blog.html')
 
 
-@app.route("/templates/report_A_Trend_by_Category%20copy.html")   
+@app.route("/report_A_Trend_by_Category%20copy.html")   
 def reportA():
     return render_template('report_A_Trend_by_Category%20copy.html')
 
 
-@app.route("/templates/report_B_eCommerce%20copy.html")   
+@app.route("/report_B_eCommerce%20copy.html")   
 def report2():
     return render_template('report_B_eCommerce%20copy.html')
 
