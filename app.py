@@ -19,7 +19,7 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route("/Amairani.github.io/blog.html")   
+@app.route("/blog.html")   
 def project_overview():
     return render_template('blog.html')
 
